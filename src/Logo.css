@@ -3,3 +3,77 @@
     height: 130px;
     width: 130px;
 }
+
+.rounded {
+    height: 50px;
+    width: 170px;
+    background-color: #FFFFFF;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30%;
+  }
+
+  .rounded2 {
+    border-radius: 20px;
+    border: none;
+    padding: 5px 15px;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.2px;
+    font-size: 11px;
+    outline: none;
+    background: white;
+    color: white;
+    /* border: 1px solid #1ed760; */
+    margin-right: 10px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0 40px;
+    font-weight: 500;
+  }
+
+  .rounded2-fixed {
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.2px;
+    font-size: 11px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    /* border: 1px solid #1ed760; */
+    margin-right: 10px;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0 15px;
+    font-weight: 500;
+  }
+
+  .rounded-fix {
+    height: 50px;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30%;
+    border: 4px solid white;
+  }
+

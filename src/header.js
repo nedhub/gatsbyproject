@@ -37,11 +37,21 @@ const Header = () => {
           </FirstHead>
 
           <SecondHead>
-              <SecondHeadText>Create account</SecondHeadText>
+              <SecondHeadText3>Create account</SecondHeadText3>
 
-              <SecondHeadText>Sign in</SecondHeadText>
+                <div className="rounded2">
 
-              <SecondHeadText>Download app</SecondHeadText>
+                <SecondHeadText2>Sign in</SecondHeadText2>
+
+                </div>
+              
+
+                <div className="rounded2-fixed">
+
+                <SecondHeadText>Download app</SecondHeadText>
+
+                </div>
+              
 
 
 
@@ -109,7 +119,7 @@ cursor: pointer;
 const FirstHead = styled.div`
 display: flex;
 position: relative;
-left: -200px;
+left: -150px;
 column-gap: 20px;
 justify-content: space-between;
 /* justify-content: space-around; */
@@ -119,6 +129,8 @@ justify-content: space-between;
 `
 
 const FirstHeadText = styled.h1`
+position: relative;
+bottom: -7px;
 font-size: 19px;
 color: whitesmoke;
 
@@ -140,9 +152,27 @@ justify-content: space-between;
 `
 
 const SecondHeadText = styled.h1`
-font-size: 19px;
+
+font-size: 12px;
 color: whitesmoke;
 
+
+
+`
+
+const SecondHeadText2 = styled.h1`
+font-size: 13px;
+letter-spacing: 0.5px;
+color: #4a4af4;
+
+`
+
+const SecondHeadText3 = styled.h1`
+position: relative;
+bottom: -7px;
+/* margin-bottom: 30px; */
+font-size: 19px;
+color: white;
 
 
 `
