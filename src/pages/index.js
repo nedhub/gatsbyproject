@@ -5,6 +5,7 @@ import BodyFirst from "../bodyfirst";
 import Imagee from "../images/head.jpg";
 import "../pages/index.css";
 import styled from "styled-components";
+import ScrollItems from "../ScrollItems";
 
 
 
@@ -55,8 +56,9 @@ const IndexPage = () => {
     </div>
 
 
-
+    <ScrollItems/>
     </div>
+    
 
     
    
