@@ -6,6 +6,7 @@ import Imagee from "../images/head.jpg";
 import "../pages/index.css";
 import styled from "styled-components";
 import ScrollItems from "../ScrollItems";
+import Middle from "../Middle";
 
 
 
@@ -39,7 +40,7 @@ const IndexPage = () => {
 
         <div class="circle">
 
-        <img src="http://assets.stickpng.com/images/585e4adacb11b227491c3392.png" className="glassicon"/>
+        <img src="http://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png" className="glassicon"/>
 
         </div>
 
@@ -57,6 +58,7 @@ const IndexPage = () => {
 
 
     <ScrollItems/>
+    <Middle/>
     </div>
     
 
