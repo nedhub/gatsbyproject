@@ -12,6 +12,7 @@ function Middle() {
                 <div>
 
                     
+        
                 </div>
                 <div>
 
